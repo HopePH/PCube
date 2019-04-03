@@ -171,15 +171,12 @@ header {
 	padding-bottom: 20px;
 	top: 0;
 	overflow: hidden;
-	background-color: #334960;
+	background-color: #a5cd62;
 	transition: 0.2s ease;
 	-o-transition: 0.1s ease;
 	-webkit-transition: 0.2s ease;
 
 }
-
-
-
 
 h1 {
 	padding-top: 28px;
