@@ -24,11 +24,11 @@ a[href^="tel:"] {
 }
 
 body {
-    font: 13px/19px Arial, Helvetica, sans-serif;
+    font: 13px/19px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ecedef;
     position: relative;
     min-width: 960px;
-    background: #88b149;
+    background: #f9fafc;
 }
 
 .ic {
@@ -46,8 +46,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
-    font-family: 'Signika', sans-serif;
-    color: #ecedef;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
 }
 
 h2 {
@@ -172,7 +172,7 @@ header {
     padding-bottom: 20px;
     top: 0;
     overflow: hidden;
-    background-color: #88b149;
+    background-color: #f9fafc;
     transition: 0.2s ease;
     -o-transition: 0.1s ease;
     -webkit-transition: 0.2s ease;
@@ -215,22 +215,22 @@ header h1 a {
         height: 0px;
         border-style: solid;
         border-width: 37px 50px 0 50px;
-        border-color: #88b149 transparent transparent transparent;
+        border-color: #fafbfd transparent transparent transparent;
         left: 50%;
         margin-left: -50px;
         top: 0;
     }
 
 #page3:after {
-    border-color: #88b149 transparent transparent transparent;
+    border-color: #f9fafc transparent transparent transparent;
 }
 
 #page4:after {
-    border-color: #334960 transparent transparent transparent;
+    border-color: #396323 transparent transparent transparent;
 }
 
 #page5:after {
-    border-color: #7f4c76 transparent transparent transparent;
+    border-color: #494949 transparent transparent transparent;
 }
 
 .tm_link {
@@ -281,7 +281,9 @@ header.page2 {
     }
 
 #page3 {
-    background-color: #334960;
+    background: -webkit-linear-gradient(#7dd121, #396323);
+    background: -moz-linear-gradient(#7dd121, #396323);
+    background: linear-gradient(#7dd121, #396323);
     padding-top: 230px;
 }
 
@@ -294,7 +296,7 @@ header.page3 {
     }
 
 #page4 {
-    background-color: #7f4c76;
+    background-color: #494949;
 }
 
 header.page4 {
@@ -302,11 +304,11 @@ header.page4 {
 }
 
     header.page4 .hover {
-        background-color: #b288ab;
+        background-color: #78c225;
     }
 
 #page5 {
-    background-color: #3f9fc9;
+    background-color: #ffffff;
 }
 
 header.page5 {
@@ -322,6 +324,7 @@ header.page5 {
 
 .slogan h3 {
     margin-bottom: 30px;
+    color: #ffffff;
 }
 
 #page2 h3 span {
@@ -351,7 +354,7 @@ header.page5 {
         line-height: 0;
         width: 69px;
         height: 69px;
-        background: url(../images/socials.png) 0 0 no-repeat;
+        /*background: url(../images/socials.png) 0 0 no-repeat;*/
     }
 
         .socials a:hover {
@@ -443,15 +446,15 @@ header.page5 {
 
     #page3 .box {
         color: #fff;
-        background-color: #46dcc7;
-        border-color: #99d6cb;
+        background-color: transparent;
+        border-color: transparent;
         padding: 22px 15px 27px;
     }
 
         #page3 .box img {
             margin-bottom: 21px;
-            border-color: #c8f5ee;
-            background-color: #334960;
+            border-color: transparent;
+            background-color: transparent;
         }
 
         #page3 .box .text1 {
@@ -477,7 +480,7 @@ header.page5 {
 
 .companies a {
     display: inline-block;
-    color: #b288ab;
+    color: #78c225;
     padding-right: 12px;
     background: url(../images/link_marker.png) right 4px no-repeat;
     margin-top: 14px;
@@ -603,3 +606,7 @@ footer {
     #toTop:hover {
         background-position: right 0;
     }
+
+.grid_12 h3 {
+    color: #ffffff;
+}
