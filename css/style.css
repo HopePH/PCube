@@ -486,7 +486,7 @@ header.page5 {
     display: inline-block;
     color: #78c225;
     padding-right: 12px;
-    background: url(../images/link_marker.png) right 4px no-repeat;
+    /*background: url(../images/link_marker.png) right 4px no-repeat;*/
     margin-top: 14px;
 }
 
